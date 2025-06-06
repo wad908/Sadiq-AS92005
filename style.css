@@ -1,0 +1,15 @@
+.navbar-container {
+    display: flex; /* Makes this div a flex container */
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center; /* Vertically centers the logo and links */
+    background-color: #445783;
+    color: white;
+    padding: 10px 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Space between the links */
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
