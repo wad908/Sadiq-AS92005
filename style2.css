@@ -13,3 +13,38 @@
     padding: 5px 10px;
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
+.container{
+    width:40%;
+    height:10px;
+    background:#4682B4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid navy;
+}
+form{
+    background:#fff;
+    width:600px;
+    height:55px;
+    display:flex;
+}
+form input{
+    flex:1;
+    border:none;
+    outline:none;
+}
+form button {
+    background:#445783;
+    padding:15px 50px;
+    border:1px solid navy;
+    outline:none;
+    color:#fff;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+form .fa-search{
+    align-self:center;
+    padding:10px 20px;
+    color:navy;
+
+}

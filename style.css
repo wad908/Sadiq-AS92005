@@ -33,7 +33,7 @@ text-font:ariel;
 .gallery{
     display : inline-block;
     border  : 3px solid navy;
-    margin :5px;
+    margin :15px;
     width:200px;
 
 }
@@ -44,4 +44,38 @@ text-font:ariel;
 }
 .gallery:hover{
         border  : 3px solid SteelBlue;
+}
+.container{
+    width:40%;
+    height:50px;
+    background:#ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+form{
+    background:#fff;
+    width:600px;
+    height:55px;
+    display:flex;
+}
+form input{
+    flex:1;
+    border:none;
+    outline:none;
+}
+form button {
+    background:#445783;
+    padding:10px 50px;
+    border:none;
+    outline:none;
+    color:#fff;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+form .fa-search{
+    align-self:center;
+    padding:10px 20px;
+    color:navy;
+
 }
