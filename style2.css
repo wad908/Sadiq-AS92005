@@ -13,15 +13,26 @@
     padding: 5px 10px;
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
-.container{
-    width:40%;
-    height:10px;
-    background:#4682B4;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border:1px solid navy;
+.Header-box{
+    background-color: white; /* Gives the box a light blue background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #336699; /* Puts a blue border around the box */
+    text-align: left; /* Centers the text and image inside */
+
 }
+.h3{
+text-font:Verdana   ;
+}
+.2header-box{
+    background-color: white; /* Gives the box a light blue background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #336699; /* Puts a blue border around the box */
+    text-align: ; /* Centers the text and image inside */
+
+}
+
 form{
     background:#fff;
     width:600px;
@@ -34,11 +45,11 @@ form input{
     outline:none;
 }
 form button {
-    background:#445783;
-    padding:15px 50px;
-    border:1px solid navy;
+    background:#fffff;
+    padding:10px 50px;
+    border:none;
     outline:none;
-    color:#fff;
+    color:#00000;
     letter-spacing:1px;
     cursor:pointer;
 }
@@ -47,4 +58,8 @@ form .fa-search{
     padding:10px 20px;
     color:navy;
 
+}
+.nav-links a:hover {
+    background-color: #336699;
+    border-radius: 10px;
 }
