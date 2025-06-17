@@ -24,32 +24,50 @@
                 </form>
             </div>
 
-</header>
-    <div class="Header-box">
-        <h3>Water is a vital resource in New Zealand, yet the issue of water waste is becoming increasingly alarming. As climate change and population growth put pressure on our water supply, it’s essential to recognize the impact of our everyday habits. By adopting sustainable practices and promoting conservation, we can help preserve water for future generation </h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/saLRGpeWmAE?si=dfPKiKrG4U3KHyJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="Image-1-slideshow.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="Image-2-slideshow.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="Image-3-slideshow.png" style="width:100%">
+  </div>
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Image-1-slideshow.jpg" style="width:100%" onclick="currentSlide(1)" alt="Before">
     </div>
-<div class="2header-box">
-    <div class="gallery">
-    <a target="_blank" href="Images/Image-1-slideshow.jpg">
-        <img src="Images/Image-1-slideshow.jpg" alt="Before" width="200"  height="150">
-    </a>
-        <div class="description">Before NZ drought</div>
+    <div class="column">
+      <img class="demo cursor" src="Image-2-slideshow.jpg" style="width:100%" onclick="currentSlide(2)" alt="After">
     </div>
-    <div class="gallery">
-    <a target="_blank" href="Images/Image-2-slideshow.jpg">
-        <img src="Images/Image-2-slideshow.jpg" alt="During" width="200" height="150">
-    </a>
-        <div class="description">During NZ drought</div>
+    <div class="column">
+      <img class="demo cursor" src="Image-3-slideshow.png" style="width:100%" onclick="currentSlide(3)" alt="Graph`">
     </div>
-     </div>
-    <div class="gallery">
-    <a target="_blank" href="Images/Image-3-slideshow.png">
-        <img src="Images/Image-3-slideshow.png" alt="During" width="200" height="150">
-    </a>
-        <div class="description">Graph showing levels</div>
+
     </div>
-</div>
+  </div>
 
 </body>
 </html>
