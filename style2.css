@@ -18,8 +18,7 @@
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
-    text-align: left; /* Centers the text and image inside */
-
+    margin:auto;
 }
 .h3{
 text-font:Verdana   ;
@@ -29,9 +28,9 @@ text-font:Verdana   ;
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
-    text-align: ; /* Centers the text and image inside */
-
+    text-align:left ; /* Centers the text and image inside */
 }
+
 
 form{
     background:#fff;
@@ -62,4 +61,7 @@ form .fa-search{
 .nav-links a:hover {
     background-color: #336699;
     border-radius: 10px;
+}
+.img2{
+    margin:right
 }
