@@ -63,3 +63,13 @@ form .fa-search{
     border: 3px solid #336699; /* Puts a blue border around the box */
     margin:auto;
 }
+.container2{
+        background-color: white; /* Gives the box a light blue background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #336699; /* Puts a blue border around the box */
+    margin:auto;
+}
+.h2{
+    text-align:center;
+}
