@@ -18,7 +18,7 @@
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
-    margin:auto;
+    margin:center;
 }
 .h3{
 text-font:Verdana   ;
@@ -29,6 +29,7 @@ text-font:Verdana   ;
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
     text-align:left ; /* Centers the text and image inside */
+    margin
 }
 
 

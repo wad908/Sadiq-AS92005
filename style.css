@@ -18,7 +18,8 @@
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
-    margin:auto;
+    margin:center;
+    text-align:center;
 }
 .h3{
 text-font:Verdana   ;
@@ -28,7 +29,8 @@ text-font:Verdana   ;
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
-    text-align: ; /* Centers the text and image inside */
+    margin:center;
+    text-align:center;
 }
 .gallery{
     display : inline-block;
@@ -98,7 +100,7 @@ form .fa-search{
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 3px solid #336699; /* Puts a blue border around the box */
-    background:Image/
+
 }
 .swiper{
     width:80%;
@@ -111,3 +113,52 @@ form .fa-search{
 .Video{
     margin: 0 auto;
 }
+*{
+    padding:0;
+    margin:0;
+    box-sizing:0;
+}
+footer{
+    background-color:#336699;
+}
+.footercontainer{
+    width:100%;
+    padding: 70px 30px 20px;
+
+}
+.socialicons{
+display:flex;
+justify-content:center;
+}
+.socialicons a{
+text-decoration:none;
+padding:10px;
+background-color:white;
+margin:10px;
+border-radius:50%;
+
+}
+.socialicons a i{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+
+}
+.socialicons a:hover{
+    background-color:#336699;
+    transition:0.5s;
+
+}
+.socialicons a:hover i{
+    color:white;
+    transition:0.5s;
+
+}
+.footernav{
+    margin:30px 0;
+}
+.footernav ul{
+    display:flex;
+    justify-content:center
+}
+https://www.youtube.com/watch?v=nkZz9DOBzBI 4min 19
